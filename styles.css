@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.head{
+   
+    background-color: black;
+    color: #fefefe;
+    text-align: center;
+    border-radius: 25px;
+    height: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 25%;
+    top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.middle{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    position: relative;
+    padding-left: 20px;
+    
+}
+.table-div{
+    position: relative;
+    padding-right: 20px;
+    
+    
+}
+.submit-child{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+
+}
+.table-div-child{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;}
+
+    
+.hrizontal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.form-action-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
+
+}
+.b{
+    background-color: black;
+    color: #fefefe;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.ud{
+    background-color: black;
+    color: #fefefe;
+    border-radius: 25px;
+    font-size: small;
+    padding: 2px 5px 2px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+    text-align: center;
+    position: relative;
+    padding-top: 20%;
+    
+}
+.thead{
+    padding: 10px;
+}
+.tbody{
+    padding: 10px;
+}

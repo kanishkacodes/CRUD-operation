@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Add Doctors</h1>
+    </div>
+
+    <div class="middle">
+        <div class="submit" id="submit">
+            <div class="submit-child">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" >
+                    <div class="hrizontal">
+                        <div><label class="input">Name* : </label><label class="validation-error hide" id="nameValidationError"></label></div>
+                        <div><input type="text" name="name" id="name" placeholder="Enter Name" id="Name"></div>
+                    </div>
+                
+                    <div class="hrizontal">
+                        <div><label class="input">Location : </label></div>
+                        <div><input type="text" name="Location" id="Location" placeholder="Enter Location" id="Location"></div>
+                    </div>
+                
+                    <div class="hrizontal">
+                        <div><label class="input">Expertise : </label></div>
+                        <div><input type="text" name="Expertise" id="Expertise" placeholder="Enter Expertise" id="Expertise"></div>
+                    </div>
+                
+                    <div class="hrizontal">
+                        <div><label class="input">Experience : </label></div>
+                        <div><input type="text" name="Experience" id="Experience" placeholder="Enter Experience" id="Experience"></div>
+                    </div>
+                    <div class="form-action-buttons">
+                        <input class="b" type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="table-div" id="table-div">
+            <div class="table-div-child">
+                <table class="list" id="doctorsList">
+                    <thead class="thead">
+                        <tr>
+                            <th>Name</th>
+                            <th>Location</th>
+                            <th>Expertise</th>
+                            <th>Experience</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+<div class="footer">
+<footer>
+
+    <p>© 2023. All Rights Reserved.</p>
+</footer>
+</div>
+
+</html>
