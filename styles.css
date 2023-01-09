@@ -17,6 +17,7 @@
     top: 10%;
     font-size: 20px;
     font-weight: bold;
+    padding: 2px;
 }
 .middle{
     position: relative;
@@ -36,12 +37,17 @@
 }
 .submit-child{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 25px;
+    padding: 20px;
+    margin-top: 125px;
+
 
 }
 .table-div-child{
+    margin-top: 205px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 25px;}
+    border-radius: 25px;
+    padding: 20px;
+}
 
     
 .hrizontal{
@@ -56,11 +62,17 @@
     justify-content: center;
 
 }
+
+
 .b{
-    background-color: black;
+    background-color:black;
     color: #fefefe;
+    padding: 7px;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+}    .b:hover{
+        background-color: #fefefe;
+        color: black;
+    }
 
 .ud{
     background-color: black;
@@ -68,7 +80,11 @@
     border-radius: 25px;
     font-size: small;
     padding: 2px 5px 2px 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.ud:hover{
+    background-color: #fefefe;
+    color: black;
 }
 .footer{
     text-align: center;
@@ -77,8 +93,15 @@
     
 }
 .thead{
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .tbody{
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.trn{
+    padding-left: 15px;
+    padding-right: 15px;
 }
